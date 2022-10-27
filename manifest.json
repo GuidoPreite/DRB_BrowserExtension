@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Dataverse REST Builder",
-    "version": "1.0.0.40",
+    "version": "1.0.0.41",
     "description": "Create and Execute requests against the Dataverse Web API endpoint.",
     "author": "Guido Preite",
     "action": {},
