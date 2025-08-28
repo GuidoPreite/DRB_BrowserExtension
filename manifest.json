@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Dataverse REST Builder",
-    "version": "1.0.0.41",
+    "version": "1.0.0.45",
     "description": "Create and Execute requests against the Dataverse Web API endpoint.",
     "author": "Guido Preite",
     "action": {},
@@ -10,6 +10,10 @@
         "48": "img/drb_icon_extension.png",
         "128": "img/drb_icon_extension.png"
     },
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self';",
+        "sandbox": "sandbox allow-scripts allow-forms allow-popups allow-modals; script-src 'self' 'unsafe-inline' 'unsafe-eval'; child-src 'self'; worker-src 'self' blob:;"
+    },	
     "background": {
         "service_worker": "background.js"
     },
